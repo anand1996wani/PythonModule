@@ -1,0 +1,19 @@
+
+Design a list in python which should accept only the given data type (Eg:Integer or float)
+and also implement all the common function of list like append, extend, insert, pop . If user
+gives any other data type it should not accept and pop up an error.
+Note: Don’t use any third party API, we are looking for you to build an API for the above
+problem and the API should be of configurable to accept any one of datatype or two.
+
+For eg:
+import mylist
+
+mylist.acceptonly(‘int’) #it should accept integers only
+
+new_list = mylist()
+
+new_list.append(5) # it should produce output
+
+new_list.append(5.0) # it should produce an error
+
+Eg2: mylist.acceptonly((‘int’, ‘float’))
